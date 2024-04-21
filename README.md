@@ -30,10 +30,19 @@
 - Adjusted popularity thresholds based on retweet outliers instead of quartiles for better classification accuracy and more sensible results. Separating the tweets by quartile (1st, 2nd and 3rd) meant a tweet only required 3 retweets to be considered very popular compared to 12 retweets by using the outlier method.
 
 # Conclusion
-- From our EDA, we observed no clear relationship between a tweet’s sentiment and its popularity level.* Instead, the most relevant features were favourites count and common words used in the most popular tweets. These two features reflect the consideration of user preferences in the Twitter’s algorithm, showing its more unbiased and user-centric approach to boosting engagement of tweets.
+- From our EDA, we observed no clear relationship between a tweet’s sentiment and its popularity level.
+- Instead, the most relevant features were favourites count and common words used in the most popular tweets. These two features reflect the consideration of user preferences in the Twitter’s algorithm, showing its more unbiased and user-centric approach to boosting engagement of tweets.
 
 # Limitations and future possibilities
 - Note that this finding, while indicative, may be skewed since our tweet dataset consisted of views from only one demographic (users in support of Ukraine) Without contrasting sentiments, it may be difficult to gauge the impact of sentiment on the popularity of content accurately. To address this issue, the dataset can be expanded to include a more diverse range of sentiments from different hashtags. This can help uncover nuances in how different sentiment levels correlate with popularity.
+
+# Learning outcomes
+- learning importance of formulating problem correctly (good scope and focus to find out meaningful answers)
+- Logistic Regression and Random Forest with GridSearchCV
+- conducting sentiment analysis on text
+- new EDA methods such as WordCloud and time series
+- Google Colab
+- learn new ways of defining accuracy of model: recall rate
 
 # References
 - https://www.kaggle.com/datasets/gpreda/slava-ukraini-tweets
