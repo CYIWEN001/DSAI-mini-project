@@ -1,6 +1,5 @@
 About
-Our project aims to find out what features predict the popularity of a tweet, with a focus on the relationship between the sentiment of tweets and popularity. We chose a Twitter dataset containing tweets with the hashtag #SlavaUkraini, which translates to ‘Glory to Ukraine!’. This dataset offers a unique opportunity to explore the potential link between sentiment and Twitter's recommendation algorithm, given the strong emotions surrounding the Ukraine War. It is important to note that these tweets are by average twitter users and not celebrities so the retweet counts are relatively lower. Attached is our source code:
-
+Our project aims to find out what features predict the popularity of a tweet, with a focus on the relationship between the sentiment of tweets and popularity. We chose a Twitter dataset containing tweets with the hashtag #SlavaUkraini, which translates to ‘Glory to Ukraine!’. This dataset offers a unique opportunity to explore the potential link between sentiment and Twitter's recommendation algorithm, given the strong emotions surrounding the Ukraine War. It is important to note that these tweets are by average twitter users and not celebrities so the retweet counts are relatively lower.
 
 Contributors
 Group members worked together on all steps of the project. The focus of each member:
@@ -29,6 +28,7 @@ Models Used: Logistic regression with BoW, Random Forest with GridSearchCV
 
 Problems encountered and solution
 Adjusted popularity thresholds based on retweet outliers instead of quartiles for better classification accuracy and more sensible results. Separating the tweets by quartile (1st, 2nd and 3rd) meant a tweet only required 3 retweets to be considered very popular compared to 12 retweets by using the outlier method.
+
 Conclusion
 From our EDA, we observed no clear relationship between a tweet’s sentiment and its popularity level.* Instead, the most relevant features were favourites count and common words used in the most popular tweets. These two features reflect the consideration of user preferences in the Twitter’s algorithm, showing its more unbiased and user-centric approach to boosting engagement of tweets.
 
