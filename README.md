@@ -41,7 +41,7 @@
 - Logistic Regression and Random Forest with GridSearchCV
 - conducting sentiment analysis on text
 - new EDA methods such as WordCloud and time series
-- Google Colab
+- learn to use Google Colab
 - learn new ways of defining accuracy of model: recall rate
 
 # References
